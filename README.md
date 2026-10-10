@@ -2,6 +2,8 @@
 
 **Applied spatial econometrics and an LLM agent interface for climate equity in Cook County, Illinois.**
 
+**[▶ Open the live interactive dashboard](https://dmend35.github.io/cook-county-climate-gwr/dashboard/)**: no install needed; works in any browser.
+
 This project measures where summer heat concentrates across Cook County's 1,331 land census tracts, who lives there, and how much tree canopy and impervious surface explain the pattern, *neighborhood by neighborhood*. The results are served through three interfaces: a spatial SQL database, a [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that lets an LLM agent query the results, and an interactive Leaflet web dashboard.
 
 ![Mean summer 2022 land surface temperature by census tract](figures/lst_preview.png)
@@ -353,7 +355,7 @@ Run the scripts in order from the repository root. Each one prints a summary of 
 ### 3. View the dashboard
 
 ```bash
-python3 -m http.server 8000 --directory dashboard
+python3 -m http.server 8000 --directory dashboard   # or use the hosted copy: https://dmend35.github.io/cook-county-climate-gwr/dashboard/
 # open http://localhost:8000
 ```
 
