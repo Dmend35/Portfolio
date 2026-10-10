@@ -310,7 +310,7 @@ The single hottest tract in the county is **Census Tract 2916 in North Lawndale*
 ### 1. Set up the environment
 
 ```bash
-git clone <this-repo> cook-county-spatial
+git clone https://github.com/Dmend35/cook-county-climate-gwr.git cook-county-spatial
 cd cook-county-spatial
 
 python3 -m venv .venv
