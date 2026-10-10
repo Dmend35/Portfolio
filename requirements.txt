@@ -1,0 +1,18 @@
+# Python 3.13. Versions pinned to the environment the published results were produced with.
+duckdb==1.5.6
+esda==2.10.0
+geopandas==1.2.0
+libpysal==4.15.0
+matplotlib==3.11.2
+mcp==2.3.0
+mgwr==2.2.1
+numpy==2.5.3
+pandas==3.0.6
+pygris==0.2.1
+pyogrio==0.13.0
+rasterio==1.5.2
+rasterstats==0.21.0
+requests==2.34.2
+scikit-learn==1.9.1
+shapely==2.2.0
+statsmodels==0.15.0
