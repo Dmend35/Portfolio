@@ -32,9 +32,6 @@ data/*.tiff
 .DS_Store
 .idea/
 
-# --- Claude Code per-user settings (shared .claude/settings.json is kept) ---
-.claude/settings.local.json
-
 # Kept on purpose:
 #   data/*.gpkg            pipeline outputs, ~5-6 MB each
 #   dashboard/             index.html + cook_county_data.geojson (~1 MB), viewable without running the pipeline
